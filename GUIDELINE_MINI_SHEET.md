@@ -68,7 +68,7 @@ Hoàn thành trước khi xem bài của người khác hoặc bộ nhãn tham c
 - Quy tắc áp dụng:
   - Phương tiện có cabin độc lập kết hợp với thùng chở hàng chuyên dụng phía sau được định danh là xe tải (truck), ko xếp vào nhóm xe con (car) hay xe van.
 - Quyết định: Gán nhãn cho object là truck; các thuộc tính đi kèm: visibility = unclear, boundary = inside, review_state = confident.
-- Nếu vẫn thiếu bằng chứng, bạn sẽ làm gì? 
+- Nếu vẫn thiếu bằng chứng, bạn sẽ làm gì?
   - Kiểm tra các frame lân cận khi xe di chuyển lại gần camera để quan sát rõ hơn trục bánh xe, logo hãng hoặc biển số đăng ký.
   - Nếu trong trường hợp bị che khuất hoặc quá mờ không phân biệt được là xe tải nhỏ hay xe bán tải, chuyển review_state = needs_review để đối chiếu với guideline phân loại xe tải và xe van/xe con của trưởng nhóm QA/QC.
 
@@ -92,7 +92,7 @@ Hoàn thành trước khi xem bài của người khác hoặc bộ nhãn tham c
 - [x] Đã kiểm vật thể thiếu và trùng.
 - [x] Đã kiểm lớp và hình học từng hộp.
 - [x] Mỗi hộp có đủ ba thuộc tính.
-- [] Đã xử lý mọi hộp `needs_review`.
+- [x] Đã xử lý mọi hộp `needs_review`.
 - [x] Đã hoàn thành ba tình huống trước khi xem nguồn đối chiếu.
 - [x] Nếu làm theo cặp, hai người đã xuất bài độc lập trước khi trao đổi.
 - [x] Nếu làm cá nhân, bài riêng đã được kiểm trước khi nhận bộ tham chiếu.
